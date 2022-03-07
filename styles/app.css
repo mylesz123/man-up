@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --green: #36E17F;
+}
+
+@font-face {
+  font-family: bebas;
+  src: url(/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: chakra;
+  src: url(/fonts/Chakra_Petch/ChakraPetch-Regular.ttf);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: bebas;
+  }
+
+  p,
+  span,
+  a,
+  li {
+    font-family: chakra;
+  }
+}
+
+@layer utilities {
+  button.btn,
+  a.btn {
+    @apply
+      p-4
+      rounded-md
+      text-black;
+  }
+}
+
+.btn.primary {
+  @apply
+    bg-green
+    hover:scale-[1.1];
+}

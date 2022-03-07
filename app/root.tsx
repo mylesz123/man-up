@@ -34,7 +34,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="prose">
+      <body className="prose dark:prose-invert prose-xl bg-black max-w-none">
         <Outlet />
         <ScrollRestoration />
         <Scripts />

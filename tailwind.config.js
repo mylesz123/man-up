@@ -1,10 +1,12 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-const typography = require('@tailwindcss/typography');
-
+/* eslint-disable import/no-extraneous-dependencies */
 module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        green: 'var(--green)',
+      },
+    },
   },
-  plugins: [typography],
+  plugins: [require('@tailwindcss/typography')],
 };
