@@ -9,18 +9,13 @@ import {
 } from 'remix';
 import type { MetaFunction } from 'remix';
 
-import tailwindStyles from './styles/tailwind.css';
-import globalStyles from './styles/global.css';
+import globalStyles from './styles/app.css';
 
 export const meta: MetaFunction = () => {
   return { title: 'New Remix App' };
 };
 
 export const links: LinksFunction = () => [
-  {
-    href: tailwindStyles,
-    rel: 'stylesheet',
-  },
   {
     href: globalStyles,
     rel: 'stylesheet',
