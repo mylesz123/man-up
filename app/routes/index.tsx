@@ -134,10 +134,10 @@ export default function Home() {
       <nav className="sticky top-0 left-0 w-full">
         <div className="flex justify-end p-4 w-full">
           <a
-            className="btn btn-primary w-36"
+            className="btn btn-primary"
             href="https://refreshingwordchurch.com/give"
           >
-            Give
+            Give to Refreshing Word Church
           </a>
         </div>
       </nav>
@@ -172,12 +172,12 @@ export default function Home() {
             </div>
           </div>
           <p>
-            In partnership with <br />
+            An organization belonging to <br />
             <a
               href="https://refreshingwordchurch.com"
               className="text-black"
             >
-              Refreshing Word Church
+              Refreshing Word Church (RWC)
             </a>
           </p>
         </div>
