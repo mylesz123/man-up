@@ -167,12 +167,12 @@ export default function Home() {
               </p>
               <p>
                 We meet every {saturdays.first.affix} and{' '}
-                {saturdays.third.affix} Saturday each month
+                {saturdays.third.affix} Saturday each month at 10AM
               </p>
             </div>
           </div>
           <p>
-            An organization belonging to <br />
+            A ministry group belonging to <br />
             <a
               href="https://refreshingwordchurch.com"
               className="text-black"
