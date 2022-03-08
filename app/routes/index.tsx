@@ -133,7 +133,10 @@ export default function Home() {
     <>
       <nav className="sticky top-0 left-0 w-full">
         <div className="flex justify-end p-4 w-full">
-          <a className="btn btn-primary w-36" href="#top">
+          <a
+            className="btn btn-primary w-36"
+            href="https://refreshingwordchurch.com/give"
+          >
             Give
           </a>
         </div>
@@ -154,7 +157,13 @@ export default function Home() {
             </span>
             <div>
               <p>
-                Join us <br /> @{address}
+                Join us <br />{' '}
+                <a
+                  href="https://goo.gl/maps/jRj1Ep99HFG6s48s6"
+                  className="text-black"
+                >
+                  @{address}
+                </a>
               </p>
               <p>
                 We meet every {saturdays.first.affix} and{' '}
@@ -164,7 +173,12 @@ export default function Home() {
           </div>
           <p>
             In partnership with <br />
-            Refreshing Word Church
+            <a
+              href="https://refreshingwordchurch.com"
+              className="text-black"
+            >
+              Refreshing Word Church
+            </a>
           </p>
         </div>
       </footer>
